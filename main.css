@@ -47,4 +47,22 @@ body {
 
 .jumbotron {
   background-color: #1d1d1d;
+  width: 1000px;
+}
+
+.media {
+  display: inline-flex;
+}
+
+.t {
+  display: inline;
+  padding-right: 150px;
+}
+
+.media img {
+  padding: 15px 20px 15px 0px;
+}
+
+.card {
+  background-color: #1d1d1d;
 }
