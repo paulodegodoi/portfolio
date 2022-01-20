@@ -41,18 +41,22 @@ body {
   height: 45px;
 }
 
-.content-site {
-  margin-left: 170px;
-}
-
 h1 {
   padding: 20px;
   text-align: center;
 }
 
+.row {
+  margin-right: 0 !important;
+}
+
 .jumbotron {
   background-color: #1d1d1d;
   padding: 10px;
+}
+
+.card {
+  margin: 30px;
 }
 
 .media {

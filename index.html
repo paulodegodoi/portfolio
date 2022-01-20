@@ -1,176 +1,165 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="main.css" />
-  </head>
-  <body>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div class="list-group sidebar" id="list-tab" role="tablist">
-            <div class="list-group-item logo">
-              <h1>C.V</h1>
-            </div>
-            <a
-              class="list-group-item list-group-item-action active"
-              id="list-home-list"
-              data-bs-toggle="list"
-              href="#list-home"
-              role="tab"
-              aria-controls="list-home"
-              >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
-                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
-                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
-              </svg><br>
-              About
-              </a
-            >
-            <a
-              class="list-group-item list-group-item-action"
-              id="list-profile-list"
-              data-bs-toggle="list"
-              href="#list-profile"
-              role="tab"
-              aria-controls="list-profile"
-              >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-card-checklist" viewBox="0 0 16 16">
-                <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z"/>
-                <path d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z"/>
-              </svg><br>
-              Resume
-              </a
-            >
-            <a
-              class="list-group-item list-group-item-action"
-              id="list-messages-list"
-              data-bs-toggle="list"
-              href="#list-messages"
-              role="tab"
-              aria-controls="list-messages"
-              >
-              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots" viewBox="0 0 16 16">
-                <path d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
-                <path d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z"/>
-              </svg><br>
-              Contact
-              </a
-            >
-          </div>
-          <div class="tab-content content-site" id="nav-tabContent">
-            <div
-              class="tab-pane fade show active"
-              id="list-home"
-              role="tabpanel" 
-              aria-labelledby="list-home-list"
-            >
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="list-group sidebar" id="list-tab" role="tablist">
+        <div class="list-group-item logo">
+          <h1>C.V</h1>
+        </div>
+        <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list"
+          href="#list-home" role="tab" aria-controls="list-home">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle"
+            viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+            <path fill-rule="evenodd"
+              d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+          </svg><br />
+          About
+        </a>
+        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list"
+          href="#list-profile" role="tab" aria-controls="list-profile">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+            class="bi bi-card-checklist" viewBox="0 0 16 16">
+            <path
+              d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+            <path
+              d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+          </svg><br />
+          Resume
+        </a>
+        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list"
+          href="#list-messages" role="tab" aria-controls="list-messages">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chat-dots"
+            viewBox="0 0 16 16">
+            <path
+              d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
+            <path
+              d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9.06 9.06 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.437 10.437 0 0 1-.524 2.318l-.003.011a10.722 10.722 0 0 1-.244.637c-.079.186.074.394.273.362a21.673 21.673 0 0 0 .693-.125zm.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6c0 3.193-3.004 6-7 6a8.06 8.06 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a10.97 10.97 0 0 0 .398-2z" />
+          </svg><br />
+          Contact
+        </a>
+      </div>
+      <div class="col-md-12">
+        <div class="tab-content" id="nav-tabContent">
+          <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+            <div class="row justify-content-md-center">
               <div class="row">
-                <h1>About Me</h1> 
+                <h1>About Me</h1>
               </div>
               <div class="row justify-content-md-center">
-                <div class="jumbotron col-md-10">
+                <div class="jumbotron col-md-8">
                   <div class="media">
-                     <img src="./imagens/Paulo.png" class="mr-3" alt="...">
+                    <img src="./imagens/Paulo.png" class="mr-3" alt="..." />
                     <div class="media-body">
                       <h2 class="mt-0">Paulo Godoi</h2>
                       <h5>Osasco - SP</h5>
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia illo consequuntur deleniti impedit ipsum culpa nemo repellat minima. Officia tempore nulla beatae asperiores repellat reiciendis omnis provident praesentium est assumenda.</p>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Officia illo consequuntur deleniti impedit ipsum culpa
+                        nemo repellat minima. Officia tempore nulla beatae
+                        asperiores repellat reiciendis omnis provident
+                        praesentium est assumenda.
+                      </p>
                     </div>
                   </div>
-                  <div class="col-md-4 t"> Desenvolvedor Web Jr</div>
-                  <div class="col-md-4 t"> Disponível para contratação</div>
-                  <div class="col-md-4 t"> <a href="https://drive.google.com/file/d/1PRhfOthFn1kSXdMSpbby0lxSZBt2vcgn/view" target="_blank">Download CV</a></div>
-                </div>             
-              </div>
-              <div class="row">
-                <h1 style="text-align: center;">Projects</h1>
-              </div>
-            <div class="row justify-content-md-center">
-              <div class="row col-md-10"> 
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                        <h5 class="card-title">Front End Developer Jr</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                      </div>
-                    </div>
+                  <div class="col-md-4 t">Desenvolvedor Web Jr</div>
+                  <div class="col-md-4 t">Disponível para contratação</div>
+                  <div class="col-md-4 t">
+                    <a href="https://drive.google.com/file/d/1PRhfOthFn1kSXdMSpbby0lxSZBt2vcgn/view"
+                      target="_blank">Download CV</a>
                   </div>
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                        <h5 class="card-title">Front End Developer Jr</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                      </div>
-                    </div>
-                  </div> 
-                  <div class="col-md-4">
-                    <div class="card" style="width: 18rem;">
-                      <div class="card-body">
-                        <h5 class="card-title">Front End Developer Jr</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="card-link">Card link</a>
-                        <a href="#" class="card-link">Another link</a>
-                      </div>
-                    </div>
-                  </div>                 
                 </div>
+                <div class="row">
+                  <h1>Projetos</h1>
+                </div>
+                <div class="row justify-content-md-center">
+                  <div class="col-md-10">
+                    <div class="row justify-content-md-center">
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o conteúdo do card.</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o conteúdo do card.</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                      </div>
+                      <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src=".../100px180/" alt="Imagem de capa do card">
+                        <div class="card-body">
+                          <h5 class="card-title">Título do card</h5>
+                          <p class="card-text">Um exemplo de texto rápido para construir o título do card e fazer
+                            preencher o conteúdo do card.</p>
+                          <a href="#" class="btn btn-primary">Visitar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+          <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum nam
+            totam molestiae! Cumque, natus. Eveniet perspiciatis, aspernatur
+            dolorum voluptates doloribus eos, autem in neque asperiores sapiente
+            beatae eligendi? Debitis, incidunt? Lorem ipsum dolor sit, amet
+            consectetur adipisicing elit. Doloremque assumenda voluptas
+            consectetur eaque commodi quia praesentium corrupti voluptatibus
+            dolor qui esse ipsam porro tempora, sequi delectus ullam
+            exercitationem unde a? Lorem ipsum dolor sit amet consectetur,
+            adipisicing elit. Adipisci officiis totam sequi hic, exercitationem,
+            cum ad quod assumenda optio tenetur doloremque ipsa eligendi,
+            voluptates minima! Reprehenderit debitis quibusdam non culpa?Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Enim aliquid
+            distinctio dignissimos quisquam quod? Nisi mollitia debitis error.
+            Id veritatis ad, amet nesciunt accusamus vel temporibus cupiditate
+            debitis deserunt cumque! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Nihil, earum placeat a deserunt ut illum,
+            explicabo consequuntur maxime doloribus veritatis iste optio.
+            Molestias repellat architecto a fugiat sint quisquam
+            cupiditate?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Saepe, qui. Aliquid perspiciatis maiores dignissimos molestiae sit
+            nobis id deleniti, doloribus voluptatum dolor, voluptate cumque
+            facilis culpa unde fugiat officia nihil.lo Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Molestias distinctio et
+            accusantium rem possimus? Fugit quaerat deserunt nulla inventore
+            illum ab, ut laudantium laboriosam quis nisi impedit. Nisi, animi
+            nesciunt?
+          </div>
+          <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+            ...
+          </div>
+          <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+            ...
           </div>
         </div>
       </div>
     </div>
-            <div
-              class="tab-pane fade"
-              id="list-profile"
-              role="tabpanel"
-              aria-labelledby="list-profile-list"
-            >
-              <div class="row">
-                <h2>Resumo</h2>
-              </div>
-              <div class="row">
-                  <div class="col-md-6">
-                    <h2>Experiências</h2>
-                  </div>           
-                  <div class="col-md-6">
-                    <h2>Formação</h2>
-                  </div>           
-              </div>
-            </div>
-            <div
-              class="tab-pane fade"
-              id="list-messages"
-              role="tabpanel"
-              aria-labelledby="list-messages-list"
-            >
-              Contact
-            </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
+</body>
+
 </html>
