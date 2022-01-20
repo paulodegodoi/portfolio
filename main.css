@@ -45,9 +45,14 @@ body {
   margin-left: 170px;
 }
 
+h1 {
+  padding: 20px;
+  text-align: center;
+}
+
 .jumbotron {
   background-color: #1d1d1d;
-  width: 1000px;
+  padding: 10px;
 }
 
 .media {
