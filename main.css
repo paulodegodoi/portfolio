@@ -67,9 +67,9 @@ h1 {
   display: inline-flex;
 }
 
-.t {
+.jumbotron-link {
   display: inline;
-  padding-right: 150px;
+  padding-left: 100px;
 }
 
 .media img {
@@ -84,7 +84,7 @@ h1 {
   background-color: #1d1d1d;
 }
 
-p {
+.media-body > p {
   text-indent: 1em;
 }
 
