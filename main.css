@@ -120,3 +120,12 @@ ul.timeline > li:before {
   height: 20px;
   z-index: 400;
 }
+
+.contato div span, a {
+  color: cadetblue;
+  padding: 0px;
+}
+
+.contato div a {
+  text-decoration: none;
+}
