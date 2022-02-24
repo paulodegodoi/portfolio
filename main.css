@@ -57,6 +57,17 @@ h1 {
 .jumbotron {
   background-color: #1d1d1d;
   padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.jumbotron p {
+  padding: 15px;
+  word-spacing: 2px;
+}
+
+.jumbotron-link {
+  margin-right: 200px;
 }
 
 .card {
@@ -67,10 +78,6 @@ h1 {
   display: inline-flex;
 }
 
-.jumbotron-link {
-  display: inline;
-  padding-left: 100px;
-}
 
 .media img {
   padding: 15px 20px 15px 0px;
@@ -122,10 +129,16 @@ ul.timeline > li:before {
 }
 
 .contato div span, a {
-  color: cadetblue;
+  color: #22c0e8;
   padding: 0px;
 }
 
 .contato div a {
   text-decoration: none;
+}
+
+#list-messages a:hover {
+  color: #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 7px;
 }
