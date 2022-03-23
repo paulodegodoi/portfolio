@@ -107,13 +107,19 @@ body {
 }
 
 .card {
+  width: 320px;
   margin: 30px;
   background-color: #15151a;
 }
 
 .card-img-top {
   padding-top: 10px;
-  height: 280px;
+  height: 320px;
+}
+
+.card h5 {
+  text-align: center;
+  margin-bottom: 15px;
 }
 
 .media {
