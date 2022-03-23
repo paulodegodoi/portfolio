@@ -1,6 +1,7 @@
 body {
   background-color: #0e1010;
   color: white;
+  position: relative;
 }
 
 .conteudo {
@@ -10,7 +11,7 @@ body {
 .sidebar {
   width: 150px;
   position: absolute;
-  height: 100vh;
+  height: 100%;
   background-color: #15151a;
 }
 
@@ -48,6 +49,15 @@ body {
 
 .tab-pane {
   padding-top: 100px;
+}
+
+.tab-pane.resumo, .tab-pane.contato {
+  height: 100vh;
+}
+
+.tab-pane > .about-me {
+  padding-top: 100px;
+  height: 100%;
 }
 
 .title-with-border {
@@ -113,10 +123,6 @@ body {
 
 .media img {
   padding: 15px 20px 15px 35px;
-}
-
-.formacao {
-  background-color: #1d1d1d;
 }
 
 .media-body > p {
