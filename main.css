@@ -6,6 +6,20 @@ body {
 
 .navbar {
   display: none;
+  background-color: #15151a !important;
+}
+
+.navbar-light .navbar-brand,
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+
+.nav-link.active {
+  color: blue;
+}
+
+.navbar-toggler {
+  background-color: white;
 }
 
 .conteudo {
@@ -102,6 +116,7 @@ body {
 
 .jumbotron-link button {
   font-size: 18px;
+  padding: 10px 50px;
 }
 
 .sub-title-about-me {
@@ -143,6 +158,23 @@ body {
 }
 
 /* About Style END */
+
+/* Resume style INIT */
+
+.formacao {
+  display: flex;
+  justify-content: center;
+}
+
+.formacao h6 {
+  color: #22c0e8;
+}
+
+.skills-progress {
+  margin: 10px 0px;
+}
+
+/* Resume style END */
 
 /* Timeline Style INIT */
 
@@ -210,9 +242,13 @@ ul.timeline > li:before {
   .conteudo {
     padding-left: 0px;
   }
+
+  .tab-pane {
+    padding-top: 0;
+  }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
   .media {
     display: block;
   }
@@ -234,4 +270,7 @@ ul.timeline > li:before {
     align-items: center;
     }
 
+  .jumbotron-link button {
+    margin-top: 10px;
+  }
 }
