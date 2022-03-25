@@ -85,6 +85,10 @@ body {
   height: 100%;
 }
 
+.title {
+  margin-bottom: 20px;
+}
+
 .title-with-border {
   border-bottom: 1px solid #22c0e8;
   margin-bottom: 30px;
@@ -128,9 +132,13 @@ body {
   font-weight: 300;
 }
 
+.card-projects {
+  margin-bottom: 50px;
+}
+
 .card {
   width: 320px;
-  margin: 30px;
+  margin: 0px 30px;
   background-color: #15151a;
 }
 
@@ -164,6 +172,7 @@ body {
 .formacao {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 .formacao h6 {
@@ -212,6 +221,11 @@ ul.timeline > li:before {
 /* Timeline Style END */
 
 /* Contato Style INIT */
+
+.contato {
+  margin: auto;
+  text-align: center
+}
 
 .contato div > span, a {
   color: #22c0e8;
