@@ -4,8 +4,12 @@ body {
   position: relative;
 }
 
+.navbar {
+  display: none;
+}
+
 .conteudo {
-  padding-left: 170px;
+  padding-left: 150px;
 }
 
 /* Sidebar Style INIT */
@@ -55,6 +59,7 @@ body {
 
 .tab-pane {
   padding-top: 100px;
+  margin: 0;
 }
 
 .tab-pane.resumo, .tab-pane.contato {
@@ -69,10 +74,6 @@ body {
 .title-with-border {
   border-bottom: 1px solid #22c0e8;
   margin-bottom: 30px;
-}
-
-.row {
-  margin-right: 0;
 }
 
 .row h1 {
@@ -198,13 +199,17 @@ ul.timeline > li:before {
 /* Contato Style END */
 
 @media (max-width: 600px) {
+  .navbar {
+    display: block;
+  }
+
   #list-tab {
     display: none;
   }
 
   .conteudo {
     padding-left: 0px;
-  } 
+  }
 }
 
 @media (max-width: 950px) {
@@ -223,4 +228,10 @@ ul.timeline > li:before {
   .card-projects {
     justify-content: center;
   }
+
+  .jumbotron-link {
+    flex-direction: column;
+    align-items: center;
+    }
+
 }
