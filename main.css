@@ -1,5 +1,5 @@
 body {
-  background-color: #0e1010;
+  background-color: #17171d;
   color: white;
   position: relative;
 }
@@ -29,28 +29,29 @@ body {
 /* Sidebar Style INIT */
 
 .sidebar {
+  justify-content: center;
   width: 150px;
   position: fixed;
   height: 100%;
-  background-color: #15151a;
+  background-color: #17171d;
+  border-right: 1px solid rgba(128, 128, 128, 0.1);
 }
 
 .sidebar a,
 .sidebar a.active,
 .sidebar .logo {
-  background-color: #15151a;
+  background-color: #17171d;
   text-align: center;
   border: 0;
   color: rgb(24, 103, 194);
 }
 
-.sidebar .logo {
-  color: #15151a;
-  border-bottom: 5px solid black;
+.sidebar a {
+  padding: 2rem;
 }
 
 .sidebar a:hover {
-  background-color: #15151a;
+  background-color: #17171d;
 }
 
 .sidebar a:not(active) {
@@ -101,8 +102,9 @@ body {
 }
 
 .jumbotron {
-  background-color: #15151a;
+  background-color: #17171d;
   padding: 10px;
+  border: 1px solid rgba(128, 128, 128, 0.1);
   border-radius: 5px;
   margin: 0;
 }
@@ -132,24 +134,23 @@ body {
   font-weight: 300;
 }
 
-.card-projects {
-  margin-bottom: 50px;
+.project {
+  display: flex;
+  align-items: center;
+  width: 1400px;
+  margin: 2rem 0;
 }
 
-.card {
-  width: 320px;
-  margin: 0px 30px;
-  background-color: #15151a;
+.project img {
+  width: 700px;
+  border-radius: 1rem;
+  margin: 1rem 4rem;
 }
 
-.card-img-top {
-  padding-top: 10px;
-  height: 320px;
-}
-
-.card h5 {
+.project h2 {
+  color: #22c0e8;
+  margin-bottom: 1rem;
   text-align: center;
-  margin-bottom: 15px;
 }
 
 .media {
