@@ -269,6 +269,20 @@ ul.timeline > li:before {
   .title {
     margin: 0px 0px 20px 0px;
   }
+
+  .project {
+    flex-direction: column;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid gray;
+  }
+
+  .project img {
+    width: 280px;
+  }
+
+  .contato .col-md-4 {
+    margin-bottom: 2rem;
+  }
 }
 
 @media (max-width: 1000px) {
