@@ -10,21 +10,6 @@ a {
 
 .navbar {
   display: none;
-  background-color: #17171d !important;
-}
-
-.navbar-light .navbar-nav .nav-link.active {
-  color: #22c0e8;
-}
-
-.navbar-light .navbar-brand,
-.navbar-light .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-toggler {
-  background-color: white;
-  padding: 3px;
 }
 
 .conteudo {
@@ -79,7 +64,7 @@ a {
 
 .tab-pane {
   padding-top: 50px;
-  margin: 0 100px;
+  margin: 0 100px 200px 100px;
 }
 
 .tab-pane.resumo, .tab-pane.contato {
@@ -299,8 +284,45 @@ ul.timeline > li:before {
 
   .navbar {
     display: block;
+    background-color: orange !important;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
   }
 
+  .navbar-nav {
+    height: 100vh;
+    background-color: orange;
+    width: 100%;
+    font-size: 2rem;
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+  }
+  
+  .navbar-toggler {
+    background-color: white;
+    box-shadow: 5px 2px 10px;
+    padding: 3px;
+  }
+
+  
+  .navbar-light .navbar-nav .nav-link.active {
+    color: #fff;
+  }
+  
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  
+  .navbar-light .navbar-brand,
+  .navbar-light .navbar-nav .nav-link:hover {
+    color: black;
+  }
+  
   #list-tab {
     display: none;
   }
@@ -346,6 +368,10 @@ ul.timeline > li:before {
 
   .resumo .skills {
     margin-bottom: 100px;
+  }
+
+  .resumo .timeline {
+    z-index: 8;
   }
 
   .contato .col-md-4 {
