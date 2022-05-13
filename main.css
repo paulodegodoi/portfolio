@@ -284,15 +284,16 @@ ul.timeline > li:before {
 
   .navbar {
     display: block;
-    background-color: orange !important;
+    background-color: darkslategrey !important;
     position: fixed;
     width: 100%;
     z-index: 100;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
 
   .navbar-nav {
     height: 100vh;
-    background-color: orange;
     width: 100%;
     font-size: 2rem;
     line-height: 100px;
@@ -310,7 +311,7 @@ ul.timeline > li:before {
 
   
   .navbar-light .navbar-nav .nav-link.active {
-    color: #fff;
+    color: #22c0e8;
   }
   
   .navbar-light .navbar-brand,
@@ -320,7 +321,9 @@ ul.timeline > li:before {
   
   .navbar-light .navbar-brand,
   .navbar-light .navbar-nav .nav-link:hover {
-    color: black;
+    font-size: 2.2rem;
+    transition: .5s;
+    color: white;
   }
   
   #list-tab {
